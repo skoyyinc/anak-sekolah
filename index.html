@@ -51,10 +51,31 @@
                 <li><a class="dropdown-item" href="#">Another action</a></li>
               </ul>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contribute
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Volunteer</a></li>
+                <li><a class="dropdown-item" href="#">Internship</a></li>
+                <li><a class="dropdown-item" href="#">Scholarship</a></li>
+                <li><a class="dropdown-item" href="#">Donate</a></li>
+              </ul>
+            </li>
           </ul>
           <ul class="navbar-nav mt-auto mb-auto ms-auto">
             <li class="nav-item">
-              <button type="button" class=" btn btn-outline-success nav-btn">Log in</button>
+              <button type="button" class=" btn btn-outline-success nav-btn" onclick="location.href='view/authentication.html';">Log in</button>
             </li>
             <li class="nav-item">
               <button type="button" class=" btn btn-success nav-btn">Register</button>
@@ -73,9 +94,10 @@
   <section id="header">
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="punchline">Some text here later I Promise. Approximately this long.</h1>
-        <button type="button" class=" btn btn-warning header-btn">VIEW TRY-OUTS</button>
-        <button type="button" class=" btn btn-warning header-btn">VIEW COURSES</button>
+        <h1 class="punchline">Comprehensive Digital Try-outs and Courses.</h1>
+        <p>We are a social entrepeneur program, our goal is to provide quality education to all community.</p>
+        <button type="button" class=" btn btn-warning header-btn">BOOK TRY-OUTS</button>
+        <button type="button" class=" btn btn-warning header-btn">JOIN COURSES</button>
       </div>
       <div class="col-lg-6">
         <img src="static/assets/header-img.svg" alt="" class="header-img">
@@ -87,8 +109,8 @@
     <div class="featured-page featured-to">
       <h2>Featured Try-Outs</h2>
       <hr>
-      <p>Prepare for your upcoming tests with our top try-outs! We guarantee you will ace whatever test that is.</p>
-      <button type="button" class=" btn btn-warning featured-btn">VIEW ALL TRY-OUTS</button>
+      <p>Book your try-outs to improve your academic skills</p>
+      <button type="button" class=" btn btn-warning featured-btn">SEE ALL TRY-OUTS</button>
       <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
         <div class="gallery-cell">
           <img src="static/assets/try-out-card.png" alt="" class="card-img">
@@ -96,6 +118,7 @@
             <h3>Try-Out UTBK</h3>
             <p>29 May 2021</p>
             <p class="card-price">IDR 50.000</p>
+            <button type="button" class="btn btn-success card-btn">Book Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -104,6 +127,7 @@
             <h3>Try-Out TOEFL</h3>
             <p>29 May 2021</p>
             <p class="card-price">IDR 50.000</p>
+            <button type="button" class="btn btn-success card-btn">Book Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -112,6 +136,7 @@
             <h3>Try-Out CPNS</h3>
             <p>29 May 2021</p>
             <p class="card-price">IDR 50.000</p>
+            <button type="button" class="btn btn-success card-btn">Book Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -120,6 +145,7 @@
             <h3>Try-Out UTUL UGM & IUP</h3>
             <p>29 May 2021</p>
             <p class="card-price">IDR 50.000</p>
+            <button type="button" class="btn btn-success card-btn">Book Now</button>
           </div>
         </div>
       </div>
@@ -127,8 +153,8 @@
     <div class="featured-page featured-courses">
       <h2>Featured Courses</h2>
       <hr>
-      <p>Improve your skills with these top picks courses. Taught by qualified professionals.</p>
-      <button type="button" class=" btn btn-warning featured-btn">VIEW ALL COURSES</button>
+      <p>Join the online courses and get a certificate</p>
+      <button type="button" class=" btn btn-warning featured-btn">SEE ALL COURSES</button>
       <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
         <div class="gallery-cell">
           <img src="static/assets/course-card.jpg" alt="" class="card-img">
@@ -136,6 +162,7 @@
             <h3>Web Development Course</h3>
             <p>Dr. Angela Yu</p>
             <p class="card-price">IDR 168.000</p>
+            <button type="button" class="btn btn-warning card-btn">Join Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -144,6 +171,7 @@
             <h3>Beginner English</h3>
             <p>Wall Street English</p>
             <p class="card-price">IDR 217.000</p>
+            <button type="button" class="btn btn-warning card-btn">Join Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -152,6 +180,7 @@
             <h3>Advance English</h3>
             <p>ILP Indonesia</p>
             <p class="card-price">IDR 217.000</p>
+            <button type="button" class="btn btn-warning card-btn">Join Now</button>
           </div>
         </div>
         <div class="gallery-cell">
@@ -160,6 +189,7 @@
             <h3>Time Management 101</h3>
             <p>Dr. Ardit Sulce</p>
             <p class="card-price">IDR 168.000</p>
+            <button type="button" class="btn btn-warning card-btn">Join Now</button>
           </div>
         </div>
       </div>
@@ -174,21 +204,21 @@
         <i class="fas fa-chalkboard-teacher fa-4x"></i>
         <div class="why-us-desc">
           <h3>Professional Teachers</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>A qualified teacher from local and international</p>
         </div>
       </div>
       <div class="col-lg-4 why-us-container">
         <i class="fas fa-user-graduate fa-4x"></i>
         <div class="why-us-desc">
           <h3>Quality Education</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>We obtain quality education as a foundation to improve people's lives and sustainable development</p>
         </div>
       </div>
       <div class="col-lg-4 why-us-container">
         <i class="fas fa-hand-holding-usd fa-4x"></i>
         <div class="why-us-desc">
           <h3>Best Deal</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>We guarantee to offer products at a reasonable price and best quality</p>
         </div>
       </div>
     </div>
@@ -197,13 +227,13 @@
   <section id="product-to">
     <div class="row">
       <div class="col-lg-6 product-img-container">
-        <img src="static/assets/computer-test.jpg" alt="" class="product-img">
+        <img src="static/assets/header-img.svg" alt="" class="product-img">
       </div>
       <div class="col-lg-6 product-desc-container">
-        <h2 class="product-title">The best digital try-outs with instant result.</h2>
+        <h2 class="product-title">A leading digital try-outs with real-time result.</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button type="button" class=" btn btn-warning product-btn">BROWSE TRY-OUTS</button>
+        <p>This website provides interactive exam practice or try-out. All the tests are written by experts and professionals to give you high quality, authentic test practice.</p>
+        <button type="button" class=" btn btn-warning product-btn">BOOK TRY-OUTS</button>
       </div>
     </div>
   </section>
@@ -211,22 +241,22 @@
   <section id="product-course">
     <div class="row">
       <div class="col-lg-6 product-desc-container">
-        <h2 class="product-title">Improve your skills with our professional courses.</h2>
+        <h2 class="product-title">Boost your skills with our inclusive courses</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button type="button" class=" btn btn-warning product-btn">BROWSE COURSES</button>
+        <p>This website provides interactive online course (live). All the courses will be given by the experts and professionals to give you high quality education.</p>
+        <button type="button" class=" btn btn-warning product-btn">JOIN COURSES</button>
       </div>
       <div class="col-lg-6 product-img-container">
-        <img src="static/assets/course-card.jpg" alt="" class="product-img">
+        <img src="static/assets/header-img.svg" alt="" class="product-img">
       </div>
     </div>
   </section>
 
   <section id="testimonials">
-    <h2>Testimonials</h2>
+    <h2>Hear From Our Scholars</h2>
     <hr>
-    <p>This is what our past clients and customers are saying about us.</p>
-    <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+    <p>This is what our past students are saying about us.</p>
+    <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true ,"autoPlay": true}'>
       <div class="testi-cell">
         <div class="row">
           <div class="col-lg-12">
@@ -260,7 +290,8 @@
         </div>
         <hr>
         <div class="row testi-text">
-          <p><i>"ASK provided HOTS question. I love to performed the online tryout by ASK because they provided various questions, and it helps me a lot! Because there were many people join the tryout, and I was so passionate to do it. At the end, I am continuing my study at PPNS."</i></p>
+          <p><i>"ASK provided HOTS question. I love to performed the online tryout by ASK because they provided various questions, and it helps me a lot! Because there were many people join the tryout, and I was so passionate to do it. At the end, I
+              am continuing my study at PPNS."</i></p>
         </div>
       </div>
       <div class="testi-cell">
@@ -272,7 +303,8 @@
         </div>
         <hr>
         <div class="row testi-text">
-          <p><i>"Although I was so confused to join which is the best TO UTBK. However, when I checked on instagram, and the ASKpert were very humble to me. When I was doing the TO, the questions were challenging. ANAK SEKOLAH is the BEST.  All in all, I am studying at Sriwijaya University."</i></p>
+          <p><i>"Although I was so confused to join which is the best TO UTBK. However, when I checked on instagram, and the ASKpert were very humble to me. When I was doing the TO, the questions were challenging. ANAK SEKOLAH is the BEST. All in
+              all, I am studying at Sriwijaya University."</i></p>
         </div>
       </div>
       <div class="testi-cell">
@@ -296,33 +328,31 @@
         </div>
         <hr>
         <div class="row testi-text">
-          <p><i>"ASK offered multiple online tryouts, and its really guidance me a lot. Their questions are very irregular. The ASKpert are really kind, and helped me to a lot to solved the any kind of problems happened. Thank you Anak Sekolah, Finally I can continue my study at UPN VY."</i></p>
+          <p><i>"ASK offered multiple online tryouts, and its really guidance me a lot. Their questions are very irregular. The ASKpert are really kind, and helped me to a lot to solved the any kind of problems happened. Thank you Anak Sekolah,
+              Finally I can continue my study at UPN VY."</i></p>
         </div>
       </div>
     </div>
   </section>
 
   <section id="our-partners">
-    <h2>Our Partners</h2>
+    <h2>Former Collaborations</h2>
     <hr>
-    <div class="row partner-row">
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay":true}'>
+      <div class="partner-cell">
+        <img src="static/assets/partner-1.png" alt="" class="partner-logo partner-logo-1">
       </div>
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
+      <div class="partner-cell">
+        <img src="static/assets/partner-2.png" alt="" class="partner-logo partner-logo-2">
       </div>
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
+      <div class="partner-cell">
+        <img src="static/assets/partner-3.png" alt="" class="partner-logo">
       </div>
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
+      <div class="partner-cell">
+        <img src="static/assets/partner-4.png" alt="" class="partner-logo">
       </div>
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
-      </div>
-      <div class="col-lg-2">
-        <img src="static/assets/logo-thumbnail.svg" alt="" class="partner-logo">
+      <div class="partner-cell">
+        <img src="static/assets/partner-5.png" alt="" class="partner-logo partner-logo-5">
       </div>
     </div>
   </section>
@@ -330,93 +360,200 @@
   <section id="our-experts">
     <h2>Meet Our ASKperts</h2>
     <hr>
-    <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/Ryan.png" alt="" class="expert-img">
-          <h3 class="expert-name">Febriyansyah Saputra</h3>
-          <p class="expert-info">PhD Degree</p>
-          <p class="expert-info">Indonesia</p>
-          <hr>
+    <div class="expert-container">
+      <div class="row">
+        <div class="expert-cell col-lg-4">
+          <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-1">
+            <img role="button" src="static/assets/Ryan.png" alt="" class="expert-img">
+            <h3 class="expert-name">Febriyansyah Saputra</h3>
+            <p class="expert-info">PhD Degree</p>
+            <img src="static/assets/indonesia.png" alt="" class="flag-icon">
+            <div class="experts-comment collapse" id="experts-comment-1">
+              <p>"We believe students will be more comfortable with this online platform. This online program could help students to improve their skills and support them to achieve their goals."</p>
+            </div>
+            <div class="expand-icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
         </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"We believe students will be more comfortable with this online platform. This online program could help students to improve their skills and support them to achieve their goals."</p>
+        <div class="expert-cell col-lg-4">
+          <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-2">
+            <img src="static/assets/andrew.png" alt="" class="expert-img">
+            <h3 class="expert-name">Andrew Mitchell</h3>
+            <p class="expert-info">PhD Degree</p>
+            <img src="static/assets/uk.jpeg" alt="" class="flag-icon">
+            <div class="experts-comment collapse" id="experts-comment-2">
+              <p>"It was really fun to teach the online class,  everybody tried really hard and were very enthusiastic and I’m sure all the members are on the way to becoming great English speakers"</p>
+            </div>
+            <div class="expand-icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/andrew.png" alt="" class="expert-img">
-          <h3 class="expert-name">Andrew Mitchell</h3>
-          <p class="expert-info">PhD Degree</p>
-          <p class="expert-info">United Kingdom</p>
-          <hr>
-        </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"It was really fun to teach the online class, everybody tried really hard and were very enthusiastic and I’m sure all the members are on the way to becoming great English speakers."</p>
-        </div>
-      </div>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/azzah.png" alt="" class="expert-img">
-          <h3 class="expert-name">Azzah Dyah Pramata</h3>
-          <p class="expert-info">PhD Degree</p>
-          <p class="expert-info">Indonesia</p>
-          <hr>
-        </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"Learning is about quality rather than quantity, and this program provide awesome learning quality through intimate interaction between the instructors and students. This create excellent atmosphere to lit up the excitement and enthusiasm og the students in gaining new knowledge."</p>
-        </div>
-      </div>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/luis.png" alt="" class="expert-img">
-          <h3 class="expert-name">Luis Japa </h3>
-          <p class="expert-info">PhD Degree</p>
-          <p class="expert-info">Dominican Republic</p>
-          <hr>
-        </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"This is a COOL program. I suppose this online program could improve your ability to understand foreign languages."</p>
+        <div class="expert-cell col-lg-4">
+          <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-3">
+            <img src="static/assets/azzah.png" alt="" class="expert-img">
+            <h3 class="expert-name">Azzah Dyah Pramata</h3>
+            <p class="expert-info">PhD Degree</p>
+            <img src="static/assets/indonesia.png" alt="" class="flag-icon">
+            <div class="experts-comment collapse" id="experts-comment-3">
+              <p>"Learning is about quality rather than quantity, and this program provide awesome learning quality through intimate interaction between the instructors and students. This create excellent atmosphere to lit up the excitement and enthusiasm og the students in gaining new knowledge"</p>
+            </div>
+            <div class="expand-icon">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/khine.png" alt="" class="expert-img">
-          <h3 class="expert-name">Khine Zar Wynn Myint</h3>
-          <p class="expert-info">PhD Degree</p>
-          <p class="expert-info">Myanmar</p>
-          <hr>
-        </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"As we use online teaching and be able to see the audiences by the video, it felt like their pay attention more! Student is required to speaking/asking more, so they can improve their speaking ability."</p>
+      <div class="collapse" id="collapse-experts">
+        <div class="row">
+          <div class="expert-cell col-lg-4">
+            <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-4">
+              <img src="static/assets/luis.png" alt="" class="expert-img">
+              <h3 class="expert-name ">Luis Japa </h3>
+              <p class="expert-info">PhD Degree</p>
+              <img src="static/assets/dominican.jpg" alt="" class="flag-icon">
+              <div class="experts-comment collapse" id="experts-comment-4">
+                <p>"This is a COOL program. I suppose this online program could improve your ability to understand foreign languages."</p>
+              </div>
+              <div class="expand-icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="expert-cell col-lg-4">
+            <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-5">
+              <img src="static/assets/khine.png" alt="" class="expert-img">
+              <h3 class="expert-name">Khine Zar Wynn Myint</h3>
+              <p class="expert-info">PhD Degree</p>
+              <img src="static/assets/myanmar.jpeg" alt="" class="flag-icon">
+              <div class="experts-comment collapse" id="experts-comment-5">
+                <p>"As we use online teaching and be able to see the audiences by the video, it felt like their pay attention more! Student is required to speaking/asking more, so they can improve their speaking ability."</p>
+              </div>
+              <div class="expand-icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="expert-cell col-lg-4">
+            <div class="expert-top" data-bs-toggle="collapse" data-bs-target="#experts-comment-6">
+              <img src="static/assets/memory.png" alt="" class="expert-img">
+              <h3 class="expert-name">Memory Lyoness Kalaya </h3>
+              <p class="expert-info">Master Degree</p>
+              <img src="static/assets/malawi.png" alt="" class="flag-icon">
+              <div class="experts-comment collapse" id="experts-comment-6">
+                <p>"LEARN with us! Enhance your knowledge, skills and abilities."</p>
+              </div>
+              <div class="expand-icon">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="expert-cell">
-        <div class="expert-top">
-          <img src="static/assets/memory.png" alt="" class="expert-img">
-          <h3 class="expert-name">Memory Lyoness Kalaya </h3>
-          <p class="expert-info">Master Degree</p>
-          <p class="expert-info">Malawi</p>
-          <hr>
-        </div>
-        <hr>
-        <div class="expert-bottom">
-          <p>"LEARN with us! Enhance your knowledge, skills and abilities."</p>
-        </div>
-      </div>
+      <button id="expand-experts-btn" type="button" class=" btn btn-warning product-btn" data-bs-toggle="collapse" data-bs-target="#collapse-experts" onclick="expandButton()">SEE ALL</button>
     </div>
   </section>
 
   <section id="sdg">
     <h2>We Support The Sustainable Development Goals</h2>
+    <hr>
+    <div class="row center">
+      <div class="col-lg-3 sdg-container">
+        <img src="static/assets/logo-transparent-light.png" alt="" class="sdg-logo">
+      </div>
+      <div class="v-separator">
+      </div>
+      <div class="col-lg-3 sdg-container">
+        <img src="static/assets/sdg-logo.png" alt="" class="sdg-logo">
+      </div>
+      <div class="v-separator">
+      </div>
+      <div class="col-lg-1 sdg-container sdg-goals">
+        <img src="static/assets/sdg_1.svg" alt="" class="sdg-logo">
+      </div>
+      <div class="col-lg-1 sdg-container sdg-goals">
+        <img src="static/assets/sdg_4.svg" alt="" class="sdg-logo">
+      </div>
+      <div class="col-lg-1 sdg-container sdg-goals">
+        <img src="static/assets/sdg_8.svg" alt="" class="sdg-logo">
+      </div>
+      <div class="col-lg-1 sdg-container sdg-goals">
+        <img src="static/assets/sdg_10.svg" alt="" class="sdg-logo">
+      </div>
+      <div class="col-lg-1 sdg-container sdg-goals">
+        <img src="static/assets/sdg_17.svg" alt="" class="sdg-logo">
+      </div>
+    </div>
   </section>
 
+  <section id="footer">
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 who-is-ask">
+            <h6>WHO IS ASK?</h6>
+            <p class="text-justify">We are a social entrepeneur program, our goal is to provide quality education to all community. We focus on the improving the quality of education at all levels especially in the higher education, and mastery to help learners establish strong foundations.</p>
+          </div>
 
+          <div class="col-xs-6 col-md-3">
+            <h6>Services</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">Try-out</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">Courses</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Terms and Condition</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by AnakSekolah.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+              <li><a class="telegram" href="#"><i class="fa fa-telegram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  <script type="text/javascript">
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+  <script type="text/javascript">
+    function expandButton() {
+      btn = document.getElementById("expand-experts-btn")
+      if (btn.innerHTML === "SEE ALL") {
+        btn.innerHTML = "SEE LESS"
+      } else {
+        btn.innerHTML = "SEE ALL"
+      }
+    }
+  </script>
   <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
 </body>
 
